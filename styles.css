@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(241, 218, 186);
+}
+
+.board{
+    background-color: rgb(209, 179, 237);
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+}
