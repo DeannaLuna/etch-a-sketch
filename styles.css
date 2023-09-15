@@ -4,14 +4,15 @@ body {
 
 .page {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-.board{
-    width: 700px;
-    height: 700px;
+#board{
+    width: 600px;
+    height: 600px;
+    border: solid 20px rgb(158, 85, 158);
+    border-radius: 20px;
     background-color: rgb(209, 179, 237);
     display: grid;
-    grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(16, 1fr);
 }
